@@ -1,38 +1,62 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="NovelFinder 1.0.1 Stable — pesquisa de novels, fluxos multilíngues de mídia e processamento local-first para Windows.">
 <title>NovelFinder 1.0.1 Stable</title>
 <style>
-body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;margin:0;background:#0c1018;color:#e8edf7}
-main{max-width:900px;margin:0 auto;padding:64px 24px}
-.hero{padding:40px;border:1px solid #283349;border-radius:20px;background:#121927}
-h1{font-size:48px;margin:0 0 10px} h2{margin-top:38px}
-.badge{display:inline-block;padding:7px 12px;border:1px solid #3c4e71;border-radius:999px}
-a.button{display:inline-block;margin-top:22px;padding:14px 20px;border-radius:12px;background:#e8edf7;color:#0c1018;text-decoration:none;font-weight:700}
-code{word-break:break-all} li{margin:8px 0} .muted{color:#a9b4c8}
+:root{--bg:#080b12;--panel:#101725;--panel2:#151e30;--text:#eef4ff;--muted:#a7b4cc;--line:#26334c;--accent:#8cc8ff;--accent2:#b5f0df}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top,#162239 0,#080b12 46%);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.6}
+a{color:inherit}.wrap{max-width:1100px;margin:auto;padding:28px 22px 70px}.nav{display:flex;justify-content:space-between;align-items:center;gap:18px;padding:8px 0 26px}.brand{font-weight:800;letter-spacing:.4px}.nav a{color:var(--muted);text-decoration:none;margin-left:18px}.hero{padding:64px 44px;border:1px solid var(--line);border-radius:28px;background:linear-gradient(145deg,rgba(22,34,57,.92),rgba(12,18,30,.96));box-shadow:0 30px 80px rgba(0,0,0,.28)}.badge{display:inline-flex;gap:8px;padding:7px 12px;border:1px solid #38506f;border-radius:999px;color:#cfe7ff;background:#0d1522;font-size:14px}.hero h1{font-size:clamp(44px,8vw,82px);line-height:.96;margin:22px 0 18px;letter-spacing:-3px}.lead{font-size:clamp(18px,2.4vw,25px);max-width:780px;color:#c8d4e8}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.btn{display:inline-block;text-decoration:none;padding:14px 19px;border-radius:13px;font-weight:800}.primary{background:var(--text);color:#0a0f18}.secondary{border:1px solid #3a4b69;color:#dce9fb}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:26px 0}.stat,.card{border:1px solid var(--line);background:rgba(16,23,37,.9);border-radius:18px;padding:22px}.stat b{font-size:28px;display:block}.stat span,.muted{color:var(--muted)}h2{font-size:32px;margin:54px 0 16px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card h3{margin-top:0}.langbar{display:flex;gap:10px;flex-wrap:wrap;margin:34px 0 0}.langbar a{padding:8px 11px;border-radius:10px;border:1px solid var(--line);text-decoration:none;color:#cad7ea}code{word-break:break-all;color:var(--accent2)}.install{counter-reset:step}.install div{counter-increment:step;padding:14px 0;border-bottom:1px solid var(--line)}.install div:before{content:counter(step);display:inline-grid;place-items:center;width:28px;height:28px;margin-right:10px;border-radius:50%;background:#21324d;color:#dbeaff;font-weight:800}footer{margin-top:58px;padding-top:24px;border-top:1px solid var(--line);color:var(--muted)}@media(max-width:800px){.stats,.grid{grid-template-columns:1fr 1fr}.hero{padding:42px 24px}}@media(max-width:560px){.stats,.grid{grid-template-columns:1fr}.nav{align-items:flex-start;flex-direction:column}.nav a{margin:0 14px 0 0}}
 </style>
 </head>
-<body><main>
-<section class="hero">
-<span class="badge">NovelFinder 1.0.1 Stable</span>
-<h1>NovelFinder</h1>
-<p>Public Stable Windows runtime for novel research and multilingual media/language workflows.</p>
-<a class="button" href="https://github.com/flavio110/NovelFinder/releases/download/v1.0.1/NovelFinder_1.0.1_STABLE_PUBLIC_RUNTIME.zip">Download 1.0.1 Stable</a>
-</section>
-<h2>Release validation</h2>
-<ul>
-<li>Stable source integrity: 465/465 PASS</li>
-<li>Public runtime manifest: PASS</li>
-<li>283 Python files compiled, 0 failures</li>
-<li>Final secret scan: 0 findings</li>
-<li>No developer credentials included</li>
-<li>Automatic paid-provider spending disabled</li>
-</ul>
-<h2>Install</h2>
-<p>Extract the ZIP and run <code>INSTALAR_NOVELFINDER_1.0.1_STABLE.cmd</code>.</p>
-<h2>SHA-256</h2>
-<p><code>C7B47DDC3515D63BDC012DFA43FD3C91078623AA139FC62332BEA46498BB4FCC</code></p>
-<p class="muted">Further development continues as 1.0.2-dev.</p>
-</main></body></html>
+<body>
+<div class="wrap">
+  <div class="nav"><div class="brand">NovelFinder</div><div><a href="#pt">PT</a><a href="#en">EN</a><a href="#zh">中文</a><a href="https://github.com/flavio110/NovelFinder">GitHub</a></div></div>
+  <section class="hero">
+    <span class="badge">● 1.0.1 Stable · Windows</span>
+    <h1>NovelFinder</h1>
+    <p class="lead">Pesquisa de novels, fluxos multilíngues de mídia/idioma e processamento local-first — com ferramentas próprias como prioridade e recursos externos apenas como assistência.</p>
+    <div class="actions">
+      <a class="btn primary" href="https://github.com/flavio110/NovelFinder/releases/download/v1.0.1/NovelFinder_1.0.1_STABLE_PUBLIC_RUNTIME.zip">Baixar 1.0.1 Stable</a>
+      <a class="btn secondary" href="https://github.com/flavio110/NovelFinder/releases/tag/v1.0.1">Ver release</a>
+    </div>
+    <div class="langbar"><a href="#pt">Português</a><a href="#en">English</a><a href="#zh">中文</a></div>
+  </section>
+
+  <div class="stats">
+    <div class="stat"><b>465/465</b><span>integridade Stable</span></div>
+    <div class="stat"><b>283</b><span>Python compilados</span></div>
+    <div class="stat"><b>0</b><span>falhas de compilação</span></div>
+    <div class="stat"><b>0</b><span>segredos no pacote</span></div>
+  </div>
+
+  <section id="pt">
+    <h2>🇧🇷 Português</h2>
+    <div class="grid">
+      <div class="card"><h3>Native First</h3><p>O NovelFinder prioriza motores locais/próprios. Serviços externos entram como aceleração ou fallback quando fizer sentido.</p></div>
+      <div class="card"><h3>Multilíngue</h3><p>Base de pesquisa, tradução, áudio, dublagem, OCR/visão e processamento de mídia em um fluxo integrado.</p></div>
+      <div class="card"><h3>Controle de custo</h3><p>O pacote Stable não inclui credenciais do desenvolvedor e mantém gasto automático com provedores pagos desativado.</p></div>
+    </div>
+    <h2>Instalação rápida</h2>
+    <div class="card install"><div>Baixe o ZIP Stable.</div><div>Extraia o pacote.</div><div>Execute <code>INSTALAR_NOVELFINDER_1.0.1_STABLE.cmd</code>.</div><div>Abra <code>C:\NovelFinder\ABRIR_NOVELFINDER.cmd</code>.</div></div>
+  </section>
+
+  <section id="en">
+    <h2>🇺🇸 English</h2>
+    <div class="card"><p><strong>NovelFinder</strong> is a Windows application for novel research and multilingual media/language workflows. Its direction is <strong>Native First, External Assist</strong>: local/native capabilities are preferred, while external providers remain optional accelerators or fallbacks.</p><p>The 1.0.1 Stable runtime passed the final release gate with <strong>465/465 Stable integrity</strong>, <strong>283 Python files compiled with 0 failures</strong>, and <strong>0 final secret-scan findings</strong>.</p></div>
+  </section>
+
+  <section id="zh">
+    <h2>🇨🇳 中文</h2>
+    <div class="card"><p><strong>NovelFinder</strong> 是一款面向 Windows 的小说检索与多语言媒体/语言工作流工具。项目方向是 <strong>Native First, External Assist（本地优先、外部辅助）</strong>：优先使用本地/自有能力，外部服务仅作为可选的加速或备用资源。</p><p>1.0.1 Stable 已通过最终发布验证：<strong>Stable 完整性 465/465</strong>、<strong>283 个 Python 文件编译 0 失败</strong>、<strong>最终密钥扫描 0 命中</strong>。</p></div>
+  </section>
+
+  <h2>Verificação do download</h2>
+  <div class="card"><p class="muted">SHA-256 oficial</p><code>C7B47DDC3515D63BDC012DFA43FD3C91078623AA139FC62332BEA46498BB4FCC</code></div>
+
+  <footer>NovelFinder 1.0.1 Stable · Desenvolvimento novo continua em 1.0.2-dev.</footer>
+</div>
+</body>
+</html>
